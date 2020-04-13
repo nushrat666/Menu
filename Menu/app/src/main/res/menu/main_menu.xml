@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Home"
+        android:id="@+id/homeMenu"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_launcher_round"
+
+        />
+
+    <item android:title="Login"
+        android:id="@+id/loginMenu"
+        app:showAsAction="never"
+
+
+        />
+
+    <item android:title="Logout"
+        android:id="@+id/logoutMenu"
+        app:showAsAction="never"
+
+
+        />
+
+    <group android:checkableBehavior="single">
+<item android:title="RED"
+    android:id="@+id/red">
+
+</item>
+        <item android:title="Blue"
+            android:id="@+id/Blue">
+
+        </item>
+    </group>
+</menu>
